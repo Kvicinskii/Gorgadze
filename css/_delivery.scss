@@ -1,0 +1,108 @@
+.bg{
+    width: 100%;
+    background: #B00F0A;
+}
+
+.wrap_delivery{
+    width: 85%;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+    .delivery{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 48%;
+        height: 190px;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 28px;
+        padding-right: 34px;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 10px;
+        .box{
+            background: url(../img/Frame.png) no-repeat left;
+            width: 30%;
+            height: 100%;
+            margin-top: -20px;
+        }
+        .delivery_text{
+            width: 100%;
+            h3{
+                
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                color: $color_h1;
+                padding-bottom: 12px;
+            }
+            p{
+                font-style: normal;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 150%;
+                color:$color_h1;
+            }
+        }
+        
+    }
+    
+}
+
+@media screen and (max-width: 1025px) {
+    .wrap_delivery .delivery{
+        height: 200px;
+        padding-left: 10px;
+        padding-right: 7px;
+    }
+    .wrap_delivery .delivery .delivery_text{
+        padding-right: 23px;
+    }
+    .wrap_delivery .delivery .delivery_text p{
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .bg{
+        height: 610px;
+    }
+    .wrap_delivery{
+        flex-direction: column;
+    }
+    .wrap_delivery .delivery{
+        width: 80%;
+        height: 243px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bg{
+        height: 590px;
+    }
+    .wrap_delivery .delivery{
+        width: 95%;
+        height: 252px;
+        padding-left: 5px;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .bg{
+        height: 630px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    h1{
+       font-size: 25px;
+   }
+}

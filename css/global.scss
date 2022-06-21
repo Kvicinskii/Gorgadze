@@ -1,0 +1,53 @@
+$color_text:#ECECEC;
+$color_h1: #FFFFFF;
+$color_p: #ECECEC;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Montserrat Alternates';
+}
+
+h1{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color:$color_h1 ;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:$color_text ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+li{
+    list-style: none;
+}
+
+@import 'header';
+@import 'delivery';
+@import 'wrap_about_us';
+@import 'products';
+@import 'responsive';
+@import 'benefits';
+@import 'slider';
+@import 'partner';
+@import 'footer';
+
+@media screen and (max-width: 365px) {
+    h1{
+       font-size: 25px;
+   }
+}

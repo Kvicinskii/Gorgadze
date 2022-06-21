@@ -1,0 +1,90 @@
+.partner_bg{
+    width: 100%;
+    background: white;
+    padding-top: 85px;
+    .partner_wrapp{
+        width: 65%;
+        text-align: center;
+        margin: auto;
+        border-bottom: 1px solid #C5C5C5;
+        margin-bottom: 40px;
+        .box{
+            background: url(../img/Vector4.svg) no-repeat top;
+            width: 21%;
+            height: 46px;
+            margin: auto;
+        }
+        h1{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 59px;
+            color: #060709;
+            padding-bottom: 40px;
+        }
+        p{
+            width: 80%;
+            display: block;
+            margin: auto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 150%;
+            color: #060709;
+            padding-bottom: 40px;
+        }
+    }
+    .partner_link{
+        width: 57%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 151px;
+        a{
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                max-width: 100%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .partner_bg .partner_link{
+        width: 82%;
+        padding-bottom: 30px;
+    }
+    .partner_bg .partner_link a{
+        width: 27%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .partner_bg .partner_link{
+        width: 82%;
+        padding-bottom: 30px;
+    }
+   
+}
+
+@media screen and (max-width: 365px){
+    .partner_bg .partner_wrapp h1{
+        font-size: 25px;
+    }
+    .partner_bg .partner_link{
+        width: 90%;
+        padding-bottom: 20px;
+    }
+    .partner_bg .partner_link a{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

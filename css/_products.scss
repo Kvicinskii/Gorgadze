@@ -1,0 +1,36 @@
+.products{
+    width: 100%;
+    background: #FCFCFC;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .products_header{
+        width: 36%;
+        margin: auto;
+        .box{
+            background: url(../img/Vector4.svg) no-repeat top;
+            width: 21%;
+            height: 46px;
+            margin: auto;
+        }
+        .product_text{
+            h1{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 59px;
+                color: #060709;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .products .products_header{
+        width: 57%;
+    }
+    .products .products_header .product_text h1{
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
